@@ -33,7 +33,9 @@
 /* Button */
 .temp-btn{
     margin-top: 10px;
+    background-color: whitesmoke;
     color:black;
+    font-weight: 540;
 }
 
 /* Bottom temperature section */
@@ -48,3 +50,4 @@
     justify-content: center;
     align-items: center;
 }
+
