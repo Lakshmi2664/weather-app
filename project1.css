@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container box */
+.app-box{
+    border: 2px solid black;
+    width: 900px;
+    margin: 40px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Top section */
+.top-section{
+    background-color:white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Heading */
+.top-section h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Input field */
+.city-name{
+    width: 450px;
+    margin: 10px auto;
+}
+
+/* Button */
+.temp-btn{
+    margin-top: 10px;
+    color:black;
+}
+
+/* Bottom temperature section */
+.temp-box{
+    background-color: gray;
+    height: 180px;
+    color: aqua;
+    font-size: 36px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
