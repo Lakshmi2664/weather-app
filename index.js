@@ -1,8 +1,7 @@
-fetchData();
 async function fetchData(cityname){
     try {
         const cityName = cityname || document.getElementById("cityName").value.toLowerCase();
-        const response =await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=e1fc804d36e0cf73556d04ac118e0712&units=metric`);
+        const response =await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=....&units=metric`);
 
         if(!response.ok){
             throw new Error("place not found");
@@ -19,3 +18,4 @@ async function fetchData(cityname){
         "Error fetching data. Please try again.";
     }
 }
+
